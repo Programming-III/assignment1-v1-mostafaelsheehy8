@@ -3,8 +3,17 @@
 
 #include "Animal.h"
 
-//define class bird here 
 
+#include<iostream>
+using namespace std;
+class Bird:Animal{
+    private:
+    float wingSpan;
+    public:
+    Bird();
+    Bird(string n,int a,bool is,float w);
+    ~Bird();
+};
 
 
 
