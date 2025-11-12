@@ -4,7 +4,20 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
+#include<iostream>
+using namespace std;
+class Visitor{
+    private:
+    string name;
+    int ticket;
+    public:
+    Visitor(string n,int t);
+    Visitor();
+    void display();
+    ~Visitor();
+    
+    
+};
 
 
 
